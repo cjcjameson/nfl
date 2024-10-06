@@ -2,6 +2,25 @@
 
 A script, notebook, and set of tools to help with selecting which team to lose in Scott Shimamoto's NFL Elimination Pool prediction game
 
+## Setup
+
+1. Clone this repository
+2. Create a virtual environment:
+   ```
+   python -m venv .venv
+   ```
+3. Activate the virtual environment:
+   - On Windows: `.venv\Scripts\activate`
+   - On macOS/Linux: `source .venv/bin/activate`
+4. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+5. Start Jupyter Notebook:
+   ```
+   jupyter notebook
+   ```
+
 ## The Rules of the Game
 
 - Each week of the NFL season, you need to pick a team you think will lose their game this week.
